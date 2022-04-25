@@ -1,0 +1,27 @@
+// PC
+@media (max-width: 1086px)
+    [class*="__container"]
+        max-width: 970px
+
+// TABLET
+@media (max-width: 991px)
+    [class*="__container"]
+        max-width: 750px
+    .header
+        &__button
+            flex: 0 0 170px
+        &__container
+            min-height: 80px
+
+    .menu
+        &__item
+            margin-right: 30px
+
+// MOBILE
+@media (max-width: 767px)
+    [class*="__container"]
+        max-width: none
+    .header
+        &__logo
+            flex: 0 0 40px
+            overflow: hidden
